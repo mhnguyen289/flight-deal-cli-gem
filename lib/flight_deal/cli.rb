@@ -1,4 +1,6 @@
 #CLI Controller
+require_relative 'version'
+require_relative 'city'
 class FlightDeal::CLI
 
 	def call
@@ -11,8 +13,7 @@ class FlightDeal::CLI
 
 	def list_cities
 		puts "Choose a city to find Flight Deals"
-		@cities = FlightDeal::City.all
-		@cities.each.with_index(1) do |city, i|
+		FlightDeal::City.all.each.with_index(1) do |city, i|
 			puts "#{i}. #{city.name}"
 		end
 	end
