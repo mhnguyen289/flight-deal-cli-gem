@@ -1,6 +1,6 @@
 
 class FlightDeal::City
-	attr_accessor :name, :deal, :url, :search_id, :date, :description
+	attr_accessor :name, :deals, :url, :search_id, :date, :description
 	
 	@@cities = [] # all cities
 
