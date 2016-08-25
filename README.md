@@ -13,7 +13,7 @@ gem 'flight_deal'
 ```
 
 And then execute:
-
+g
     $ bundle
 
 Or install it yourself as:
