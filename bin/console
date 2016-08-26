@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env ruby 
 
 require "bundler/setup"
 require "flight_deal"
@@ -10,5 +10,5 @@ require "flight_deal"
 # require "pry"
 # Pry.start
 
-require "irb"
-IRB.start
+require "pry"
+Pry.start
